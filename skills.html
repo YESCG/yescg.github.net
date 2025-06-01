@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Skills Gained from Computer Subjects</title>
+<style>
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  body {
+    background: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  header {
+    background: #003366;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  header h1 {
+    font-weight: 700;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+  }
+  nav {
+    margin-top: 0.5rem;
+  }
+  nav a {
+    color: white;
+    margin-left: 1.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  nav a.active {
+    border-bottom: 2px solid #00bfff;
+    padding-bottom: 3px;
+  }
+  main {
+    flex: 1;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  section {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 0.1);
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+  section h2 {
+    margin-bottom: 1rem;
+    color: #004080;
+    font-weight: 700;
+    font-size: 1.8rem;
+    border-bottom: 3px solid #0077cc;
+    display: inline-block;
+    padding-bottom: 0.3rem;
+  }
+  section p {
+    margin-bottom: 1.2rem;
+    font-size: 1.1rem;
+  }
+  .image-gallery {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .image-gallery img {
+    width: 30%;
+    min-width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    object-fit: cover;
+    height: 180px;
+  }
+  footer {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 1rem 1rem;
+    font-size: 0.9rem;
+    margin-top: auto;
+  }
+  @media (max-width: 768px) {
+    nav {
+      width: 100%;
+      margin-top: 0.8rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1rem;
+    }
+    .image-gallery {
+      flex-direction: column;
+      align-items: center;
+    }
+    .image-gallery img {
+      width: 80%;
+      height: auto;
+    }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Computer Subjects in School</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="skills.html" class="active">Skills Gained</a>
+    <a href="video.html">Watch Video</a>
+    <a href="future.html">Future Scope</a>
+  </nav>
+</header>
+
+<main>
+  <section>
+    <h2>Skills Students Gain From Computer Subjects</h2>
+    <p>Computer subjects teach students a wide range of valuable skills that prepare them for the future workforce and daily life.</p>
+    <ul>
+      <li><strong>Problem Solving:</strong> Logical thinking and debugging improve critical problem-solving skills.</li>
+      <li><strong>Coding & Programming:</strong> Learning languages like Python, Java, or Scratch enhances creativity and technical ability.</li>
+      <li><strong>Digital Literacy:</strong> Understanding software, hardware, and online safety is crucial for the digital world.</li>
+      <li><strong>Collaboration:</strong> Group projects teach teamwork and communication using digital tools.</li>
+      <li><strong>Analytical Thinking:</strong> Analyzing data and algorithms sharpens students' analytical skills.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Gallery: Computer Learning in Action</h2>
+    <div class="image-gallery">
+      <img src="https://images.unsplash.com/photo-1518773553398-650c184e0bb3?auto=format&fit=crop&w=600&q=80" alt="Student coding on laptop" />
+      <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80" alt="Hands typing on keyboard" />
+      <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=80" alt="Students working together on a computer" />
+    </div>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 Computer Education Awareness | Designed by ChatGPT
+</footer>
+</body>
+</html>
